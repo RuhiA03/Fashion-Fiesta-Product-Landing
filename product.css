@@ -1,5 +1,3 @@
-/* CSS Reset */
-
 html{
     scroll-behavior: smooth;
 }
@@ -12,6 +10,7 @@ html{
 :root {
     --navbar-height: 59px;
 }
+
 body{
     background-color: white;
 }
@@ -22,7 +21,6 @@ body{
     position:sticky;
     top: 0;
     z-index: 1;
-
 }
 
 #navbar::before {
@@ -51,11 +49,9 @@ body{
     font-family: 'Playfair Display', serif;
 }
 
-
 #navbar ul li {
     list-style: none;
     font-size: 1.3rem;
-
 }
 
 #navbar ul li a {
@@ -64,7 +60,6 @@ body{
     padding: 3px 22px;
     border-radius: 20px;
     text-decoration: none;
-
 }
 
 #navbar ul li a:hover {
@@ -78,17 +73,16 @@ body{
     flex-direction: column;
     padding: 3px 200px;
     justify-content: flex-start;
-    align-items: center;
-
-   
+    align-items: center;  
 }
+
 .tp{
     color: black;
     text-align: center;
     font-size: 1.5rem;
     font-family: 'Bree Serif', serif;
-
 }
+
 #home::before{
     content: "";
     position: absolute;
@@ -107,7 +101,6 @@ body{
     font-family: 'Bree Serif', serif;
     margin: 0px 0px 50px 0px;
     font-family: 'Alata', sans-serif;
-
 }
 
 #home p {
@@ -129,11 +122,10 @@ body{
     font-size: 1.5rem;
     font-family: 'Bree Serif', serif; 
     margin: 20px 90px 0px 90px;
-
 }
+
 #tp{
     text-align: center;
-
 }
 #order{
     text-align: center;
@@ -148,7 +140,7 @@ body{
 #Favourites{
     margin: 34px;
     display: flex;
-
+    text-align: center; 
 }
 
 #Favourites .box{
@@ -160,20 +152,16 @@ body{
 }
 
 #Favourites .box img{
-        height: auto;
-        margin: 0px;
-        display: block;
-        max-width:100% ;
+    height: auto;
+    margin: 0px;
+    display: block;
+    max-width:100% ;
 }
 
 #Favourites .box p{
     font-family: 'Bree Serif', serif;
     color: rgb(53, 3, 3);
 
-}
-
-#Favourites {
-    text-align: center; 
 }
   
 #fav1 .box {
@@ -200,6 +188,19 @@ body{
     align-items: center;
 }
 
+#clients p{
+    width: 800px;
+    font-size: 1.3rem;
+}
+
+#clients img{
+    height: 260px;
+}
+
+.client-item{
+    padding: 20px 40px 0px 20px;
+}
+
 #AboutUs-section{
     height: 410px;
     position: relative;
@@ -216,24 +217,10 @@ body{
     background: url('../img/img8.jpg') no-repeat center;
 }
 
-#clients p{
-    width: 800px;
-    font-size: 1.3rem;
-}
-
-#clients img{
-    height: 260px;
-}
-
-.client-item{
-    padding: 20px 40px 0px 20px;
-}
-
 #contact::before{
     content: "";
     position: absolute;
     width: 100%;
-    /* height: 100%; */
     z-index: -1;
     opacity: 0.6;
     background: url('../img/canteen3.jpg') no-repeat center center/cover;
@@ -263,7 +250,6 @@ footer {
     font-size: 2.4rem;
     padding: 12px;
     font-family: 'Bree Serif', serif;
-
 }
 
 .btn {
